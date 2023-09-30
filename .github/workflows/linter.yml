@@ -3,7 +3,14 @@ on: [push]
 jobs:
   Run-linter:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./frontend
     steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20.8
       - run: yarn install
       - run: yarn run build
       - run: yarn run linter-check
