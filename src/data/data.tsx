@@ -71,12 +71,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">The Software House</strong> helping with realization of customers plans.
+        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working at{' '}
+        <strong className="text-stone-100">The Software House</strong> helping with realization of customers plans.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">riding motorcycle</strong>,
-        walking my <strong className="text-stone-100">dog</strong>, or playing with{' '}
+        In my free time time, you can catch me <strong className="text-stone-100">riding motorcycle</strong>, walking my{' '}
+        <strong className="text-stone-100">dog</strong>, or playing with{' '}
         <strong className="text-stone-100">new technologies</strong>.
       </p>
     </>
@@ -142,7 +142,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'GraphQL',
         level: 9,
-      }, 
+      },
       {
         name: 'NextJS',
         level: 5,
@@ -210,7 +210,7 @@ export const education: TimelineItem[] = [
     location: 'University of Gdańsk',
     title: 'Masters in Psychology',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  }
+  },
 ];
 
 export const experience: TimelineItem[] = [
@@ -220,7 +220,8 @@ export const experience: TimelineItem[] = [
     title: 'Node.js developer',
     content: (
       <p>
-        Backend developer in greenfield project which is responsble for comparing banking products. Main technologies: TypeORM, Express.js, TypeScript and PostgreSQL.
+        Backend developer in greenfield project which is responsble for comparing banking products. Main technologies:
+        TypeORM, Express.js, TypeScript and PostgreSQL.
       </p>
     ),
   },
@@ -230,7 +231,10 @@ export const experience: TimelineItem[] = [
     title: 'Full-stack developer',
     content: (
       <p>
-        Data warehouse hosted on AWS cloud. I was responsible for adjusting the process of authentication by omitting a proxy module responsible for integrating with the self-hosted IAM service, keycloak. I also did minor improvements and optimizations of data imports within step-functions workflows. Main technologies: TypeScript, AWS Step functions, S3, PostgreSQL and Keycloak.
+        Data warehouse hosted on AWS cloud. I was responsible for adjusting the process of authentication by omitting a
+        proxy module responsible for integrating with the self-hosted IAM service, keycloak. I also did minor
+        improvements and optimizations of data imports within step-functions workflows. Main technologies: TypeScript,
+        AWS Step functions, S3, PostgreSQL and Keycloak.
       </p>
     ),
   },
@@ -240,7 +244,10 @@ export const experience: TimelineItem[] = [
     title: 'Full-stack developer',
     content: (
       <p>
-        Legacy CRM application which main features was to create contracts and then generate invoices. I was responsible for refactoring the code and adding new features. Application had plenty of integrations with external services. And application used self-hosted IAM service, FusionAuth for authorization and authentication. Main technologies: Node.js, Express.js, TypeScript, PostgreSQL, FusionAuth, React and Next.js.
+        Legacy CRM application which main features was to create contracts and then generate invoices. I was responsible
+        for refactoring the code and adding new features. Application had plenty of integrations with external services.
+        And application used self-hosted IAM service, FusionAuth for authorization and authentication. Main
+        technologies: Node.js, Express.js, TypeScript, PostgreSQL, FusionAuth, React and Next.js.
       </p>
     ),
   },
@@ -250,7 +257,10 @@ export const experience: TimelineItem[] = [
     title: 'Full-stack developer',
     content: (
       <p>
-        Responsible for developing and maintaining stack of applications related to call centers. Main features of applications was to manage call center, create new agents, queues setting priorites etc. And calculate statistics of call centers like eg. call durations, call hangout reason, response time etc. Main technologies: Perl, PHP, JavaScript, JQuery, Bash and PostgreSQL.
+        Responsible for developing and maintaining stack of applications related to call centers. Main features of
+        applications was to manage call center, create new agents, queues setting priorites etc. And calculate
+        statistics of call centers like eg. call durations, call hangout reason, response time etc. Main technologies:
+        Perl, PHP, JavaScript, JQuery, Bash and PostgreSQL.
       </p>
     ),
   },
