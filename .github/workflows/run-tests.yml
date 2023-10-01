@@ -1,14 +1,14 @@
 name: Run tests
 on: [push]
 jobs:
-  Run-linter:
+  Run-jest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v3
         with:
           node-version: 20.8
       - uses: actions/checkout@v3
-      - run: yarn install --frozen-lockfile
-      - run: yarn install -g jest
+      - run: yarn install
+      - run: yarn global add jest
       - run: yarn run build
       - run: yarn run test
