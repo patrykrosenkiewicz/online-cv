@@ -10,6 +10,7 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import heroImage from '../images/header-background.webp';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
